@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineGame Central - Enciclopedia Visual</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>CineGame Central</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#catalogo">Catálogo</a></li>
+                <li><a href="#favoritos">Mis Favoritos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="buscador">
+            <h2>Buscar en la Enciclopedia</h2>
+            <form>
+                <input type="text" placeholder="Buscar por título...">
+                <select>
+                    <option value="todos">Todos los géneros</option>
+                    <option value="accion">Acción</option>
+                    <option value="aventura">Aventura / RPG</option>
+                    <option value="scifi">Ciencia Ficción</option>
+                </select>
+                <button type="button">Buscar</button>
+            </form>
+        </section>
+
+        <section id="catalogo">
+            <h2>Catálogo de Películas y Videojuegos</h2>
+
+            <article>
+                <h3>Spider-Man: Across the Spider-Verse</h3>
+                <p><strong>Categoría:</strong> Película - Animación / Acción</p>
+                <p>Miles Morales se embarca en una aventura a través del multiverso.</p>
+                <button type="button">❤️ Agregar a Favoritos</button>
+            </article>
+
+            <article>
+                <h3>The Legend of Zelda: Tears of the Kingdom</h3>
+                <p><strong>Categoría:</strong> Videojuego - Aventura / RPG</p>
+                <p>Explora los vastos paisajes de Hyrule y sus islas flotantes.</p>
+                <button type="button">❤️ Agregar a Favoritos</button>
+            </article>
+
+            <article>
+                <h3>Interstellar</h3>
+                <p><strong>Categoría:</strong> Película - Ciencia Ficción</p>
+                <p>Un viaje a través de un agujero de gusano para salvar la humanidad.</p>
+                <button type="button">❤️ Agregar a Favoritos</button>
+            </article>
+        </section>
+
+        <section id="favoritos">
+            <h2>Mis Favoritos Guardados</h2>
+            <p>Aquí se mostrarán las tarjetas que agregues como favoritas.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CineGame Central - Proyecto Desarrollo Web</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
